@@ -1,0 +1,67 @@
+     4-1、cocoapods 安装
+     gem source --remove https://ruby.org
+     gem source -a https://ruby.taobao.org
+     gem source -a http://ruby.taobao.org #如果上一步失败，用此行命令
+     sudo gem install -n /usr/local/bin cocoapods
+     sudo gem install cocoapods  #如果上一步失败，用此行命令
+
+     pod setup # 更新cocoapods索引仓库
+     错误总结：
+     4-1-1.Operation not permitted
+     结尾出现此类提示的，在命令开头 加 sudo（空格）
+     4-1-2.xcrun: error...
+    错误信息：
+      xcrun: error: active developer path ("/Applications/Xcode 2.app/Contents/Developer") does not exist, use    `xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools (or see `man xcode-select`)
+      解决方法：
+      sudo xcode-select -switch /Applications/Xcode.app/ #（注：后边的xcode路径，改为自己系统中的xcode路径）
+
+     4-2、cocoapods 使用
+     4-2-1.如何初始化工程为，cocoapods工程
+     打开终端，进入该工程目录下（输入 "cd" 然后按空格，然后把工程所在的文件夹拖进来，回车）
+     输入"pod init"，回车
+     (此步如果出错，参考4-1-2处理)
+     
+     4-2-2.如何编辑、添加命令
+     编辑"Podfile"文件（把文件拖入 xcode中编辑,在文本中编辑某些符号会被转,会出现问题）
+     
+     4-2-3.如何找到添加的配置 代码
+     打开终端
+     输入 "pod search afnetwoking "，回车(afnetwoking 为需要搜索的第三方库名称，模糊匹配，大小写不区分)
+     找到你要使用的第三方库，把其配置代码加入到"Podfile"中
+     注:有时候,搜不到要找的第三方库,或者搜索出来的库不全,可以使用 pod setup 更新索引仓库
+
+     添加后，类似
+     # -------------- start
+     # 我是注释
+     target 'TestPod' do
+     
+     # AFNetworking 的配置代码
+     pod 'AFNetworking', '~> 3.0.4' # 该行为配置代码
+
+     end
+     # -------------- end
+     
+     4-2-4.如何安装和更新第三方库
+     打开终端，cd 到 工程所在的目录
+     输入
+     pod install // 第一次刚初始化后用
+     pod update  // 以后用
+     回车，等结束
+     安装和更新一般比较慢，因为安装和更新时都会检查仓库是否更新，可以使用以下命令跳过该步骤
+     pod install --no-repo-update
+     pod update --no-repo-update
+     
+     4-2-5.如何使用
+     打开 工程目录下的 **.xcworkspace 使用
+     
+     4-2-6.如何引入第三方库的文件
+     #import <JSONKit.h> // 该库文件编译会不通过，实际测试，测试其他第三方库，如 AFNetWoking等
+     用尖括号去引入 头文件
+     
+    <4>cocoapods 管理的工程 svn中注意：
+    "Podfile"和"Podfile.lock" 这两个文件 需要提交到svn管理中
+    "Pods/" 这个文件夹 可以不添加到svn管理中
+    
+    参考：http://www.cnblogs.com/wayne23/p/3912882.html
+    高级使用：http://ishalou.com/blog/2012/10/16/how-to-create-a-cocoapods-spec-file/
+http://www.iwangke.me/2013/04/18/advanced-cocoapods/

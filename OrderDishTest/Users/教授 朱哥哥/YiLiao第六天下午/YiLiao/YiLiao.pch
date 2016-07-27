@@ -1,0 +1,41 @@
+//
+//  YiLiao.pch
+//  YiLiao
+//
+//  Created by MrCheng on 16/3/15.
+//  Copyright © 2016年 zhiYou. All rights reserved.
+//
+
+#ifndef YiLiao_pch
+#define YiLiao_pch
+
+//导入透明指示层库
+#import "UIWindow+YzdHUD.h"
+#import "NetworkTool.h"
+#import "CommandTool.h"
+#import "ZYNews.h"
+#import "ZYPeople.h"
+#import "UIImageView+WebCache.h"
+#import "ASIFormDataRequest.h"
+#import "NSString+SBJSON.h"
+
+#define HOST @"http://localhost:8080"
+#define HOST_ADDR @"http://localhost:8080/st/s"
+
+#define APP_WIN [[[UIApplication sharedApplication] delegate] window]
+#define USER_DEF [NSUserDefaults standardUserDefaults]
+
+
+#define USER_TOKEN @"token"
+#define USER_DEADTIME @"deadTime"
+
+
+
+
+#define  MyHight  self.view.frame.size.height
+#define MyWidth self.view.frame.size.width
+
+
+
+
+#endif /* YiLiao_pch */

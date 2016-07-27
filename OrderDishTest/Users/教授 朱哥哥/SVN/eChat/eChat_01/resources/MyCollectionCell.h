@@ -1,0 +1,17 @@
+//
+//  MyCollectionCell.h
+//  eChat_01
+//
+//  Created by mac on 2016/3/14.
+//  Copyright © 2016年 mac. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface MyCollectionCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *imgView;
+@property (weak, nonatomic) IBOutlet UILabel *labelName;
+
+@property (nonatomic, assign) BOOL downloadFinished;
+
+@end

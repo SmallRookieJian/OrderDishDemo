@@ -1,0 +1,77 @@
+10
+
+dir
+6
+svn://xx@127.0.0.1/res/eChat/Pods
+svn://xx@127.0.0.1/res
+
+
+
+2016-03-21T09:21:20.575200Z
+6
+xx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+935ffaec-a5a0-4846-bb20-105823dc85a8
+
+Pods.xcodeproj
+dir
+
+Target Support Files
+dir
+
+Headers
+dir
+
+Local Podspecs
+dir
+
+Manifest.lock
+file
+
+
+
+
+2016-03-21T09:23:10.000000Z
+5d734cb4e936ec9e0b0a002ab0310182
+2016-03-21T09:21:20.575200Z
+6
+xx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+673
+
+AFNetworking
+dir
+

@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "60f5e247-6f9b-4ed1-9b0a-faba2a3830a8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "60f5e247-6f9b-4ed1-9b0a-faba2a3830a8" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "60f5e247-6f9b-4ed1-9b0a-faba2a3830a8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C4AE5747-CAD0-4AF3-8D67-E4CD44AD8468",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "60f5e247-6f9b-4ed1-9b0a-faba2a3830a8" : "ZY64\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "KVCDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "3-25\/Test\/Test\/KVCDemo\/KVCDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/code.taobao.org\/svn\/ZY64",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "60f5e247-6f9b-4ed1-9b0a-faba2a3830a8"
+    }
+  ]
+}

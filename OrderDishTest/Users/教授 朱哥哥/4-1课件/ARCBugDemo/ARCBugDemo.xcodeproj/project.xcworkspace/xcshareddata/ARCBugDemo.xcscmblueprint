@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "60f5e247-6f9b-4ed1-9b0a-faba2a3830a8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "60f5e247-6f9b-4ed1-9b0a-faba2a3830a8" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "60f5e247-6f9b-4ed1-9b0a-faba2a3830a8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "06D9B54F-7EF6-48B2-AFDE-6ACE18CAB438",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "60f5e247-6f9b-4ed1-9b0a-faba2a3830a8" : "ZY64\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ARCBugDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "3-25\/Test\/Test\/ARCBugDemo\/ARCBugDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/code.taobao.org\/svn\/ZY64",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "60f5e247-6f9b-4ed1-9b0a-faba2a3830a8"
+    }
+  ]
+}

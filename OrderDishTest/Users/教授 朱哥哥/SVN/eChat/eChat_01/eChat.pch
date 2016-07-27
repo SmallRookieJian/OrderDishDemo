@@ -1,0 +1,21 @@
+//
+//  eChat.pch
+//  eChat_01
+//
+//  Created by mac on 2016/3/20.
+//  Copyright © 2016年 mac. All rights reserved.
+//
+
+
+#ifndef eChat_pch
+#define eChat_pch
+
+#import "UIWindow+YzdHUD.h"
+
+
+
+
+#define APP_WIN [[[UIApplication sharedApplication] delegate] window]
+
+
+#endif /* eChat_pch */
